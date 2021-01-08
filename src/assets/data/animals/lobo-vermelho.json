@@ -1,0 +1,26 @@
+{
+    "sub": "o",
+    "cname": "Canis rufus",
+    "aka": "lobo-de-crina, lobo-de-juba, lobo",
+    "situation": "Em perigo crítico",
+    "order": "Carnivora",
+    "family": "Canidae",
+    "summary-character": [
+        "Normalmente possui um único parceiro por toda a vida",
+        "A fêmea é ajudada pelo macho a cavar uma toca para ter seus filhotes",
+        "Durante os 2 primeiros meses são dependentes da mãe",
+        "É mais sociável do que o coiote, mas menos do que o lobo comum"
+    ], 
+    "character": [
+        "Vivendo em liberdade, normalmente possuem um único parceiro por toda a vida",
+        "A fêmea às vezes é ajudada pelo macho a cavar ou encontrar uma boa toca para ter seus filhotes",
+        "Os filhotes nascem com os olhos completamente fechados e durante os dois primeiros meses de vida são totalmente dependentes da mãe",
+        "O lobo-vermelho é mais sociável do que o coiote, mas menos do que o lobo comum"
+    ],
+    "habitat": "O lobo-vermelho é nativo da América do Norte e a sua área de distribuição era, originalmente, toda a zona sudeste dos Estados Unidos, leste da Pensilvânia, sul da Flórida e no sudeste do Texas.",
+    "threats": [
+        "Caça humana",
+        "Transformação do habitat por ação humana"
+    ],
+    "info": "Atingem a maturidade sexual no segundo ou terceiro ano de vida. O período de reprodução ocorre nos meses de fevereiro e abril. Costumam permanecer com os pais até atingirem a maturidade, formando pequenos grupos familiares ou pequenos bandos."
+}

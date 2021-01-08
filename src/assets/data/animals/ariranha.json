@@ -1,0 +1,27 @@
+{
+    "sub": "a",
+    "cname": "Pteronura brasiliensis",
+    "aka": "lontra-gigante, onça-d’água, lobo-do-rio",
+    "situation": "Em perigo",
+    "order": "Carnivora",
+    "family": "Mustelidae",
+    "summary-character": [
+        "É o maior membro da família Mustelidae em comprimento",
+        "Pode medir quase 2 metros, dos quais 65 cm são de cauda",
+        "Os machos podem pesar até 34kg",
+        "Os dedos das patas estão unidos por membranas que facilitam a natação"
+    ], 
+    "character": [
+        "Pode medir quase 2 metros de comprimento, dos quais 65 centímetros compõem a cauda",
+        "Os machos são geralmente mais pesados que as fêmeas e podem pesar até 34 quilos",
+        "Tem olhos relativamente grandes, orelhas pequenas e arredondadas, patas curtas e espessas e cauda comprida e achatada",
+        "Os dedos das patas estão unidos por membranas interdigitais que facilitam a natação"
+    ],
+    "habitat": "A ariranha habita ambientes de água doce e sua distribuição ocorre pela América do Sul, em países como Brasil, Peru, Colômbia, Paraguai, Suriname e Venezuela, entre outros.",
+    "threats": [
+        "Caça para a comercialização de sua pele, a captura para zoológicos e a criação como animal de estimação",
+        "Destruição do habitat, superexploração da pesca, contaminação dos corpos d’água com mercúrio, agrotóxicos e outros compostos poluentes, caça ilegal e zoonoses possivelmente transmitidas por animais domésticos",
+        "O roubo de filhotes para comercialização ilegal como animais de estimação e conflitos com pescadores também é frequente, podendo levar ao abate de indivíduos por retaliação"
+    ],
+    "info": "A ariranha é claramente distinguível das demais lontras pelas características morfológicas e comportamentais. Ela é o maior membro da família Mustelidae em comprimento. A pelagem é espessa, com textura aveludada e cor escura, exceto na zona da garganta onde apresentam uma mancha branca. Apresenta hábitos semiaquáticos, habitando diversos tipos de rios, córregos, lagos, várzeas de rios e florestas inundadas na época de cheia em regiões sazonalmente alagáveis. Os indivíduos preferem ambientes de águas mais calmas, podendo ser encontrados em águas claras ou escuras, com razoável transparência e que suportam grande diversidade de espécies de peixes. Grupos de ariranhas constroem locas, latrinas e campsites ao longo de seus territórios. As locas são construídas nos barrancos dos corpos d’água, protegidas por raízes ou árvores caídas. Latrinas comunitárias são utilizadas para a deposição de fezes e urina, exercendo um importante papel na marcação territorial, podendo estar localizadas nos campsites ou próximas às entradas das locas."
+}

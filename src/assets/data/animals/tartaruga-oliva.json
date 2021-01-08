@@ -1,0 +1,27 @@
+{
+    "sub": "a",
+    "cname": "Lepidochelys olivacea",
+    "aka": "tartaruga-olivácea, tartaruga-marinha-olivácea, tartaruga-pequena, tartaruga-comum, xibirro",
+    "situation": "Em perigo",
+    "order": "Testudines",
+    "family": "Cheloniidae",
+    "summary-character": [
+        "É uma espécie carnívora",
+        "Alimenta-se de peixes, moluscos, crustáceos, etc",
+        "De cada 1 mil filhotes que nascem, só 1 ou 2 chegam à maturidade",
+        "Seu casco lembra a forma de um coração"
+    ], 
+    "character": [
+        "É uma espécie carnívora",
+        "Alimenta-se de salpas, peixes, moluscos, crustáceos, briozoários, tunicados, águas-vivas, ovos de peixe e eventualmente algas",
+        "De cada mil filhotes que nascem, somente um ou dois conseguem atingir a maturidade",
+        "Ganhou esse nome por causa da cor oliva de seu casco em forma que lembra um coração"
+    ],
+    "habitat": "A área prioritária de desova desta espécie no Brasil está localizada entre o litoral sul do estado de Alagoas e o litoral norte da Bahia com maior densidade de desovas no estado de Sergipe. Juvenis e adultos ocorrem em áreas costeiras e oceânicas desde o Rio Grande do Sul até o Pará, e em águas internacionais adjacentes à zona econômica exclusiva do Brasil.",
+    "threats": [
+        "Caça e coleta de ovos e abate de fêmeas",
+        "Pesca artesanal e industrial",
+        "Ocupação desordenada da zona costeira"
+    ],
+    "info": "As tartarugas marinhas são capturadas incidentalmente em praticamente todas as pescarias no Brasil, destacando-se a alta mortalidade de fêmeas adultas que ocorre no entorno das áreas de reprodução. Historicamente, a abundância dessas populações era enorme. Considera-se que o índice de abundância populacional mais adequado para as tartarugas marinhas seja o número de ninhos em cada temporada. Desta forma, o aumento no número de ninhos observado nos últimos anos representa um indício de aumento no tamanho populacional. No entanto, apesar de promissora, acredita-se que essa recuperação é insignificante em relação ao tamanho populacional no passado."
+}

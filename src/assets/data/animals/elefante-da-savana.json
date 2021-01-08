@@ -1,0 +1,25 @@
+{
+    "sub": "o",
+    "cname": "Loxodonta africana",
+    "aka": "",
+    "situation": "Vulnerável",
+    "order": "Proboscidea",
+    "family": "Elephantidae",
+    "summary-character": [
+        "É o maior animal terrestre vivo",
+        "A tromba tem mais de 40 mil músculos para levantar objetos pesados",
+        "Geralmente vive até 70 anos",
+        "Não possui quase nenhum predador natural além do ser humano"
+    ], 
+    "character": [
+        "A maior das duas espécies existentes de elefantes africano e o maior animal terrestre vivo",
+        "A tromba do elefante tem mais de 40 mil músculos e tendões que lhes permitem levantar objetos pesados",
+        "Geralmente vivem até 70 anos, quando em estado selvagem",
+        "O maior elefante já registrado, baleado em Angola em 1965, pesava 12 toneladas e 274 quilos e em pé media 4,2 metros de altura"
+    ],
+    "habitat": "Encontrado na África Subsaariana, incluindo Quênia, Tanzânia, Botsuana, Zimbábue, Namíbia e Angola.",
+    "threats": [
+        "Os elefantes da savana não têm predadores naturais. A caça feita por humanos, por carne, pele, ossos e presas é sua principal ameaça"
+    ],
+    "info": "A espécie possui poucos ou quase nenhum predador natural além do ser humano. Embora seja a mais numerosa das três espécies de elefantes existentes, a sua população continua a diminuir devido à caça ilegal de marfim e a destruição de seu habitat. Anteriormente, tanto o elefante da savana quanto o elefante africano da floresta foram considerados como uma única espécie, com ambos sendo chamados de elefante africano, mais recentemente o elefante da floresta foi classificado como uma espécie separada. Os elefantes-da-savana fêmeas tendem a ser sociáveis, vivendo em grupos matriarcais liderados pela fêmea mais velha, enquanto os machos adultos por outro lado são geralmente solitários."
+}

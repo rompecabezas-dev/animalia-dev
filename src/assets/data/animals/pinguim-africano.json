@@ -1,0 +1,27 @@
+{
+    "sub": "o",
+    "cname": "Spheniscus demersus",
+    "aka": "",
+    "situation": "Vulnerável",
+    "order": "Sphenisciformes",
+    "family": "Spheniscidae",
+    "summary-character": [
+        "Única espécie africana de pinguim",
+        "Mede cerca de 60 centímetros e pesa entre 2,4 e 3,6 quilos",
+        "Pode alcançar 20 km/h perseguindo uma presa",
+        "O macho e a fêmea chocam igualmente os ovos"
+    ], 
+    "character": [
+        "Única espécie africana de pinguim, vive na costa sudoeste do continente",
+        "Mede cerca de 60 centímetros de comprimento e pesa entre 2,4 e 3,6 quilos",
+        "Tem uma faixa negra em volta da barriga branca e uma mancha preta no queixo e rosto",
+        "Os machos tendem a ser um pouco maiores do que as fêmeas"
+    ],
+    "habitat": "É encontrado na África do Sul, Namíbia, Angola, República Democrática do Congo, Gabão e Moçambique.",
+    "threats": [
+        "Os ovos de pinguins-africanos eram considerados uma iguaria e ainda eram coletados para venda na década de 1970",
+        "A prática de coletar ovos de pinguins-africanos envolvia esmagar aqueles encontrados alguns dias antes de um esforço de coleta para garantir que apenas ovos recém-postos fossem vendidos. Isso contribuiu para o declínio drástico da população de pinguins africanos ao redor da costa do Cabo, um declínio que foi acelerado pela remoção do guano das ilhas para uso como fertilizante, eliminando o material de escavação usado pelos pinguins",
+        "Os pinguins permanecem suscetíveis à poluição de seu habitat por produtos petroquímicos de derramamentos, naufrágios e limpeza de navios-tanque quando estão no mar"
+    ],
+    "info": "Os pinguins-africanos se alimentam de peixes como o biqueirão, sardinha, carapau e arenque, mas também comem lulas e crustáceos. Quando na caça de presas, os pinguins-africanos podem alcançar a velocidade máxima perto de 20 quilômetros por hora. Os pinguins-africanos vivem em colônias e são monógamos – cerca de 80 a 90% dos casais permanecem juntos na reprodução. Costumam colocar dois ovos, embora não seja comum a sobrevivência dos dois filhotes. O período de incubação é de cerca de 40 dias, sendo que o pai e a mãe chocam igualmente os ovos."
+}

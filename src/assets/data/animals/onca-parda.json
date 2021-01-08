@@ -1,0 +1,27 @@
+{
+    "sub": "a",
+    "cname": "Puma concolor",
+    "aka": "puma, suçuarana, onça-vermelha, onça-do-lombo-preto, leão-baio, leãozinho-da-cara-suja, bodeira",
+    "situation": "Vulnerável",
+    "order": "Carnivora",
+    "family": "Felidae",
+    "summary-character": [
+        "Ocupa todas as zonas biogeográficas das Américas",
+        "Peso de um macho adulto varia entre 40 e 72kg",
+        "O segundo maior felídeo das Américas",
+        "É capaz de matar presas como alces, veados e cabras montanhesas"
+    ], 
+    "character": [
+        "Um dos felinos mais bem adaptados aos diferentes ambientes, ocupa todas as zonas biogeográficas das AméricasUm dos felinos mais bem adaptados aos diferentes ambientes, ocupa todas as zonas biogeográficas das Américas",
+        "O peso médio de um macho adulto pode variar entre 40 e 72 quilos, enquanto que nas fêmeas varia de 34 a 48 quilos",
+        "O segundo maior felídeo das Américas, medindo até 155 cm de comprimento, sem a cauda",
+        "É capaz de matar presas com peso entre 70 e 125 quilos, como alces, veados-de-rabo-branco e cabras montanhesas"
+    ],
+    "habitat": "A onça-parda é o mamífero terrestre de maior distribuição geográfica na região Neotropical, ocorrendo originalmente desde o sul canadense até o extremo sul do continente sul-americano, com exceção apenas do complexo das ilhas caribenhas e algumas regiões do Chile. No Brasil, a onça-parda está presente em todos os biomas. Mesmo sendo bem distribuída, em algumas localidades no território nacional as populações de onças-pardas encontram-se bastante reduzidas ou mesmo extintas.",
+    "threats": [
+        "A supressão e fragmentação de habitat, a retaliação por predação de animais domésticos, tanto o abate “preventivo” de onças-pardas quanto o abate após o evento de predação, e os atropelamentos parecem ser as principais causas de perda de indivíduos da espécie",
+        "No Brasil, a caça esportiva nos biomas Pantanal e Pampa, as queimadas em fazendas produtoras de cana-de-açúcar na Mata Atlântica e Cerrado, a expansão da matriz energética eólica na Caatinga e o conflito com canídeos domésticos nos Pampas",
+        "Uma das maiores ameaças à sobrevivência dos felinos selvagens em todo o mundo é a perda de habitat em virtude da expansão urbana e da matriz agropecuária"
+    ],
+    "info": "Pode ser encontrada desde florestas úmidas tropicais e subtropicais até florestas temperadas, áreas montanhosas acima de 3 mil metros de altitude, pântanos e regiões extremamente áridas e/ou frias. O corpo é alongado e esguio. A coloração da pelagem é uniforme, variando na região dorsal do amarelo pardo ao avermelhado, sendo o ventre e a parte interna dos membros mais clara. O lombo muitas vezes pode apresentar uma coloração acinzentada, dando um aspecto mais escuro ao animal. O hábito alimentar é considerado oportunista, uma vez que consome uma grande variedade de presas conforme a disponibilidade no ambiente."
+}

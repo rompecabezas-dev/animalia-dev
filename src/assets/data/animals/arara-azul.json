@@ -1,0 +1,26 @@
+{
+    "sub": "a",
+    "cname": "Anodorhynchus hyacinthinus",
+    "aka": "arara-azul-grande, arara-preta, arara-una, arara-hiacinta",
+    "situation": "Vulnerável",
+    "order": "Psittaciformes",
+    "family": "Psittacidae",
+    "summary-character": [
+        "Mede cerca de 98cm",
+        "Pesa 1,5kg",
+        "Gigante entre as araras",
+        "O bico é grande e curvo, parecendo maior que o crânio"
+    ], 
+    "character": [
+        "Mede cerca de 98 centímetros de comprimento e pesa 1,5 quilo",
+        "Gigante entre as araras, é considerada a maior representante da família em todo o mundo",
+        "Coloração inconfundível, principalmente azul intensa, com diferentes tonalidades",
+        "O bico é grande e curvo, dando a impressão de que esse é maior que o próprio crânio"
+    ],
+    "habitat": "Essa espécie habita diferentes formações vegetais, sendo encontrada em formações savânicas e até em ambientes de floresta no Brasil, Paraguai e Bolívia. As maiores populações dessa espécie de arara são encontradas no Pantanal.",
+    "threats": [
+        "Destruição de habitat",
+        "Captura para comércio ilegal"
+    ],
+    "info": "São aves sociais, sendo encontradas em pares ou grupos. Esses grupos podem ser encontrados em locais de alimentação e nos chamados dormitórios, que funcionam como áreas para o descanso desses animais. As araras-azuis apresentam alta capacidade de socialização entre os membros do grupo. Uma característica interessante da arara-azul é que ela apresenta comportamento monogâmico, com formação de casais que permanecem unidos até mesmo fora da estação reprodutiva. Esses pares dividem tarefas entre si, como o cuidado com o filhote e com o ninho. Após o acasalamento, os ovos são colocados em ninhos localizados, principalmente, em ocos de árvores e em paredões rochosos. Geralmente, a fêmea bota entre um e três ovos e fica chocando-os por um período aproximado de um mês."
+}

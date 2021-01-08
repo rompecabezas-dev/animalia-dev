@@ -1,0 +1,27 @@
+{
+    "sub": "a",
+    "cname": "Panthera onca",
+    "aka": "onça-preta, jaguaretê, yaguaretê, tigre, jaguar, canguçu",
+    "situation": "Vulnerável",
+    "order": "Carnivora",
+    "family": "Felidae",
+    "summary-character": [
+        "Maior felino do continente americano",
+        "Pesa até 135 kg",
+        "Tem mordida considerada a maior dentre os felinos de todo o mundo",
+        "Não mia, emite uma série de roncos fortes"
+    ], 
+    "character": [
+        "Maior felino do continente americano, podendo chegar a 135 quilos",
+        "Animal robusto, com grande força muscular, sendo a potência de sua mordida considerada a maior dentre os felinos de todo o mundo",
+        "Suas presas naturais são animais silvestres como catetos, capivaras, jacarés, queixadas, veados e tatus",
+        "Não mia como a maioria dos felinos: emite uma série de roncos muito fortes que são chamados de esturro"
+    ],
+    "habitat": "A onça pintada está distribuída em quase todos os biomas brasileiros, com exceção do Pampa, sendo que 50% da área do país ainda é considerada adequada à ocorrência da espécie.",
+    "threats": [
+        "Alteração e perda de habitat",
+        "Expansão agrícola, mineração, implantação de usinas hidrelétricas, ampliação das estradas",
+        "Eliminação de indivíduos por caça ou retaliação por predação de animais domésticos"
+    ],
+    "info": "Por estar no topo da cadeia alimentar e necessitar de grandes áreas preservadas para sobreviver, esse animal ao mesmo tempo temido e admirado que habita o imaginário das pessoas é um indicador de qualidade ambiental. A ocorrência desses felinos em uma região indica que ela ainda oferece boas condições que permitam a sua sobrevivência."
+}

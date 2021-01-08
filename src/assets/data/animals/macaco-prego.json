@@ -1,0 +1,28 @@
+{
+    "sub": "o",
+    "cname": "Sapajus cay",
+    "aka": "macaco-prego-do-papo-amarelo",
+    "situation": "Vulnerável",
+    "order": "Primates",
+    "family": "Cebidae",
+    "summary-character": [
+        "Hábil em manipular ferramentas",
+        "Dentição capaz de abrir frutos protegidos e sementes duras",
+        "Pesa até 4,8kg e mede até 48cm, sem a cauda",
+        "Pode viver até 55 anos em cativeiro"
+    ], 
+    "character": [
+        "Conhecido por habilidades manipulativas, como uso de proto-instrumentos e ferramentas",
+        "Possui dentição forte o suficiente para abrir frutos protegidos e sementes de relativa dureza",
+        "São macacos de porte médio, pesando entre 1,3 e 4,8 quilos, com até 48 centímetros de comprimento, sem a cauda",
+        "Podem viver até 55 anos em cativeiro, mas geralmente vivem até os 46 anos "
+    ],
+    "habitat": "Espécie que ocorre nos estados do Mato Grosso e Mato Grosso do Sul, também na Argentina, Bolívia e Paraguai.",
+    "threats": [
+        "Perda, fragmentação e desconexão de habitat",
+        "Aumento da matriz rodoviária e energética",
+        "Expansão urbana, assentamentos rurais, incêndios e caça",
+        "Vulnerabilidade a epidemias"
+    ],
+    "info": "As espécies dos gêneros Sapajus e Cebus podem ser separadas em dois grupos, diferenciados pela presença ou ausência de “topetes”, “tufos” ou “capuzes” na parte superior da cabeça. O macaco-prego está distribuído em uma região que vem sendo intensamente impactada nos últimos anos, por fatores como aumento da matriz rodoviária e energética, expansão urbana, assentamentos rurais, agricultura, pecuária e desmatamento. Estima-se que estas ameaças vêm causando intensa perda e fragmentação de habitat."
+}

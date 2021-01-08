@@ -1,0 +1,26 @@
+{
+    "sub": "a",
+    "cname": "Tapirus terrestris",
+    "aka": "anta-brasileira, tapir, anta-comum, anta-gameleira, anta-sapateira, antaxuré, batuvira, pororoca, tapiira, tapira, tapiretê",
+    "situation": "Vulnerável",
+    "order": "Perissodactyla",
+    "family": "Tapiridae",
+    "summary-character": [
+        "O maior mamífero terrestre do Brasil e o segundo da América do Sul",
+        "Pesa até 300kg e mede 2m40cm",
+        "Descansa de dia e sai à noite para se alimentar",
+        "Pode viver até 35 anos"
+    ], 
+    "character": [
+        "Permanecem inativas e descansando durante o dia, saindo à noite para se alimentar",
+        "Apesar de sua dieta ser composta principalmente por folhas e fibras, os frutos são também um importante recurso alimentar",
+        "O maior mamífero terrestre do Brasil e o segundo da América do Sul, tendo até 300 quilos de peso e 2m40cm de comprimento",
+        "Pode viver até 35 anos"
+    ],
+    "habitat": "Ocorre desde o sul da Venezuela até o norte da Argentina, em áreas abertas ou florestas próximas a cursos d'água, com abundância de palmeiras.",
+    "threats": [
+        "As ameaças à sobrevivência da anta são a caça, a alteração e degradação do habitat, atropelamentos, doenças advindas de animais domésticos e até envenenamento",
+        "A caça é uma das maiores ameaças à espécie, dado sua taxa reprodutiva extremamente lenta. Quando combinada com a fragmentação e destruição do habitat, possui efeitos devastadores sobre as populações. A caça é particularmente maior em regiões da Amazônia nos llanos da Venezuela e da Colômbia – seja por subsistência, esportiva ou comercial"
+    ],
+    "info": "A espécie habita uma grande variedade de ambientes, desde florestas de galeria a florestas tropicais de baixas elevações, além de áreas sazonalmente inundáveis. Entretanto, de maneira geral, a anta é um animal que vive em ambientes florestais associados a fontes de água permanentes. Apresenta uma probóscide (apêndice alongado que se localiza na cabeça de algumas espécies de animais) que é usada para coletar alimento. Tem um papel importante na dispersão de sementes, principalmente de palmeiras. Seus predadores são grandes felinos como a onça-pintada e a onça-parda. É um animal solitário e vive em territórios de cinco quilômetros quadrados de área, em média. A anta tem reprodução lenta, com uma gestação que pode durar mais de 400 dias e parem apenas um filhote por vez, que pesa entre 3,2 e 5,8 quilos."
+}
