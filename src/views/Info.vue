@@ -16,7 +16,7 @@
         </div>
         <div class="trivia">
           <article>
-            <p><b>Características:</b> {{animal.iData.info}}</p>
+            <p><b>Características: </b><span v-html="animal.iData.info"></span></p>
           </article>
           <article>
             <p><b>Habitat:</b> {{animal.iData.habitat}}</p>

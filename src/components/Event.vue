@@ -26,13 +26,15 @@
           <p>SÃO PAULO</p>
           <p>De 09 a 31/01/2021</p>
           <p>Local: Morumbi Shopping (Avenida Roque Petroni Júnior, 1089 - Jardim das Acácias - CEP: 04707-900)</p>
-          <p>Funcionamento: de segunda a domingo das 10h às 22h</p>
+          <p>Funcionamento: de segunda a sábado das 10h às 22h e domingo das 12h às 20h</p>
         </div>
         <div class="locale">
           <p>CURITIBA</p>
           <p>De 15/01 a 07/02/2021</p>
           <p>Local: Shopping Pátio Batel (Avenida do Batel, 1868 - Batel - CEP: 80420-090)</p>
+          <!--
           <p>Funcionamento: de segunda a domingo das 10h às 22h</p>
+          -->
         </div>
       </div>
     </div>
