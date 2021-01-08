@@ -1,14 +1,30 @@
 export default {
     zero: {
-        disclaimer: "Ao que parece você não acertou nenhuma das questões. :(",
+        disclaimer: "Ao que parece você não acertou nenhuma das questões...",
         message: "Mas não desanime! O que você acha de aproveitar os conteúdos do nosso portal e conhecer um pouco mais sobre o mundo Animália? Explore, conheça as curiosidades sobre cada um dos animais e refaça o teste!",
     },
-    low: {
-        disclaimer: "Você acertou $N de 10 questões.",
+    one: {
+        disclaimer: "Você acertou uma de 10 questões.",
         message: "O que você acha de aproveitar os conteúdos do nosso portal e conhecer um pouco mais sobre o mundo Animália? Explore, conheça as curiosidades sobre cada um dos animais e refaça o teste!"
     },
-    medium: {
-        disclaimer: "Você acertou $N respostas das 10 questões, está no caminho certo, continue assim!",
+    two: {
+        disclaimer: "Você acertou duas de 10 questões.",
+        message: "O que você acha de aproveitar os conteúdos do nosso portal e conhecer um pouco mais sobre o mundo Animália? Explore, conheça as curiosidades sobre cada um dos animais e refaça o teste!"
+    },
+    three: {
+        disclaimer: "Você acertou três de 10 questões.",
+        message: "O que você acha de aproveitar os conteúdos do nosso portal e conhecer um pouco mais sobre o mundo Animália? Explore, conheça as curiosidades sobre cada um dos animais e refaça o teste!"
+    },
+    four: {
+        disclaimer: "Você acertou quatro respostas das 10 questões, está no caminho certo, continue assim!",
+        message: "O que você acha de aproveitar os conteúdos do nosso portal e conhecer um pouco mais sobre o mundo Animália? Explore, conheça as curiosidades sobre cada um dos animais e refaça o teste!"
+    },
+    five: {
+        disclaimer: "Você acertou cinco respostas das 10 questões, está no caminho certo, continue assim!",
+        message: "O que você acha de aproveitar os conteúdos do nosso portal e conhecer um pouco mais sobre o mundo Animália? Explore, conheça as curiosidades sobre cada um dos animais e refaça o teste!"
+    },
+    six: {
+        disclaimer: "Você acertou seis respostas das 10 questões, está no caminho certo, continue assim!",
         message: "O que você acha de aproveitar os conteúdos do nosso portal e conhecer um pouco mais sobre o mundo Animália? Explore, conheça as curiosidades sobre cada um dos animais e refaça o teste!"
     },
     seven: {

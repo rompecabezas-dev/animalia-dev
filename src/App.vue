@@ -185,6 +185,35 @@ img {
   -webkit-user-drag: none;
 }
 
+input[type=checkbox] {
+  visibility: hidden;
+  position: relative;
+  margin-right: 5px;
+
+  &::after {
+    content: '';
+    visibility: visible;
+    position: absolute;
+    width: 98%;
+    height: 98%;
+    border: 1px solid;
+    border-color: $border;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  &:hover::after{
+    background-color: lightgrey;
+  }
+
+  &:checked::after {
+    background-color: white;
+    border: 3px solid;
+    border-color: $pink;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;

@@ -8,7 +8,7 @@
                 <div class="invite">
                     <span>ANIMÁLIA</span> convida você a conhecer de perto bichos que fazem parte da vida na Terra, mas que estão ameaçados de extinção ou em situação de vulnerabilidade. Explore este mundo navegando pelo site ou curtindo presencialmente nossa exposição com esculturas incríveis para você fotografar. Quem vai embarcar nessa?
                 </div>
-                <div class="quiz-btn">
+                <div class="quiz-btn" @click="clickRedirect('/quiz')">
                     <div class="btn-title">QUIZ ANIMÁLIA</div>
                     <div class="btn-text">Teste seus conhecimentos sobre o <b>Mundo Animália</b></div>
                     <img src="../assets/art/quiz.png" alt="Quiz Animália">
@@ -24,10 +24,13 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
+import { clickRedirect } from '../assets/functions';
 
 @Component
 export default class Animalia extends Vue {
-
+    private clickRedirect(url: string) {
+        clickRedirect(this, url);
+    }
 }
 </script>
 
