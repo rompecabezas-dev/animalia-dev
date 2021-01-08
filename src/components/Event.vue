@@ -1,14 +1,14 @@
 <template>
   <div class="event">
     <div class="about" id="sobre">
-      <p>O ANIMÁLIA</p>
+      <p>ANIMÁLIA</p>
       <p>Uma imersão no fascinante mundo selvagem. Animália convida você a conhecer de perto bichos que fazem parte da riqueza e variedade da vida na Terra, mas que estão ameaçados de extinção ou em situação de vulnerabilidade.</p>
       <p>São animais da fauna brasileira e de outros continentes, representados em seus ecossistemas por esculturas incríveis, com cenografia e materiais todos certificados e sustentáveis. Uma experiência inesquecível de contato e conhecimento com a força e a beleza da natureza – que você pode ajudar a preservar.</p>
       <div class="socials">
-        <a href="http://instagram.com/animalia2021" target="_blank">
+        <a href="http://instagram.com/animaliaexperience" target="_blank">
           <font-awesome-icon :icon="['fab', 'instagram']" />
         </a>
-        <a href="http://facebook.com/animalia2021" target="_blank">
+        <a href="http://facebook.com/animaliaexperience" target="_blank">
           <font-awesome-icon :icon="['fab', 'facebook-f']" />
         </a>
         <div class="follow">
