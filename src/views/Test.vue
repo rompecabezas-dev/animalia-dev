@@ -7,7 +7,7 @@
         <p class="quest">Quanto você aprendeu sobre o <b>Mundo Animália?</b></p>
       </div>
       <div v-if="current >= 10" class="completion">
-        <newsletter v-if="!completed" @confirmSubscription="viewResults()"/>
+        <newsletter v-if="!subscribed" @subscribed="viewResults()"/>
         <results v-else :score="score"/>
       </div>
       <question v-else-if="current >= 0" :question="questionList[current]" @userResult="nextQuestion($event)"/>
@@ -35,8 +35,7 @@ export default class Test extends Vue {
   private current = -1;
   private score = 0;
   private questionList!: Array<any>;
-  //private completed = false;
-  private completed = true;
+  private subscribed = false;
 
   private nextQuestion(event: {earned: number}) {
     this.score += event.earned
@@ -44,7 +43,8 @@ export default class Test extends Vue {
   }
 
   private viewResults() {
-    this.completed = true;
+    (document.getElementById('lead') as HTMLButtonElement).click();
+    this.subscribed = true;
   }
 
   created() {

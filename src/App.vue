@@ -186,13 +186,12 @@ img {
 }
 
 input[type=checkbox] {
-  visibility: hidden;
   position: relative;
   margin-right: 5px;
-
+ /*
   &::after {
     content: '';
-    visibility: visible;
+    
     position: absolute;
     width: 98%;
     height: 98%;
@@ -212,6 +211,7 @@ input[type=checkbox] {
     border: 3px solid;
     border-color: $pink;
   }
+  */
 }
 
 body {

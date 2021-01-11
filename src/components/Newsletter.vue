@@ -2,12 +2,19 @@
     <div class="newsletter">
         <p>PRONTO(A) PARA DESCORBRIR QUANTAS QUESTÕES VOCÊ ACERTOU?</p>
         <p>Preencha os campos abaixo para ver seu resultado!</p>
-        <form name="subscription" @submit.prevent="sendUserData()">
-            <input type="text" placeholder="Nome" name="nome">
-            <input type="text" placeholder="Sobrenome" name="sobrenome">
-            <input type="email" placeholder="E-mail" name="email">
-            <span><input type="checkbox"> Eu autorizo o Animália a enviar e-mails para este endereço.</span>
-            <button type="submit">Enviar</button>
+        <form 
+            action="https://mundoanimalia.us7.list-manage.com/subscribe/post?u=64666cde1a9c5ea6c14984606&amp;id=6f4ff17ef5" 
+            method="post" 
+            id="mc-embedded-subscribe-form" 
+            name="mc-embedded-subscribe-form" 
+            target="_blank"
+            @submit="sendUserData()"
+            >
+            <input type="text" value="" name="FNAME" id="mce-FNAME" placeholder="Nome" ref="fname" required maxlength="20" @input="fieldValidation(firstName)">
+            <input type="text" value="" name="LNAME" id="mce-LNAME" placeholder="Sobrenome" ref="lname" required maxlength="60" @input="fieldValidation(lastName)">
+            <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="E-mail" ref="email" required maxlength="120" @input="fieldValidation(email)">
+            <span><input type="checkbox" required> Eu autorizo o Animália a enviar e-mails para este endereço.</span>
+            <input type="submit" value="Enviar" name="subscribe" id="mc-embedded-subscribe">
         </form>
         <div>
             <a href="/#top" @click.prevent="clickRedirect('/')">&#60; PÁGINA INICIAL</a>
@@ -22,13 +29,37 @@ import { clickRedirect } from '../assets/functions';
 
 @Component
 export default class Newsletter extends Vue {
+    private get firstName() {
+        return this.$refs.fname as HTMLInputElement;
+    }
+
+    private get lastName() {
+        return this.$refs.lname as HTMLInputElement;
+    }
+
+    private get email() {
+        return this.$refs.email as HTMLInputElement;
+    }
+
     private clickRedirect(location: string) {
         clickRedirect(this, location);
     }
 
     private sendUserData() {
-        this.$emit("confirmSubscription", {confirm:  true});
+        setTimeout(() => {
+            this.$emit('subscribed', true);
+        }, 1);
     }
+
+    private fieldValidation(field: HTMLInputElement) {
+        if (field.validity.valueMissing) {
+            field.setCustomValidity(`O campo ${field.placeholder} não pode ser vazio`)
+        } else if (field.validity.typeMismatch) {
+            field.setCustomValidity(`Valor invalido para o campo ${field.placeholder}`);
+        } else {
+            field.setCustomValidity('');
+        }
+    }    
 }
 </script>
 
@@ -68,14 +99,17 @@ export default class Newsletter extends Vue {
         margin: 1vmax 0;
         display: flex;
         flex-direction: column;
+        width: 33%;
         @media screen and (max-width: 720px) {
             width: 65%;
         }
+
         >* {
             margin: .5vmax 0;
         }
 
         >input[type=text], >input[type=email] {
+            position: relative;
             font-family: "roboto-regular";
             padding: .5vmax;
             border-radius: 5px;
@@ -99,7 +133,7 @@ export default class Newsletter extends Vue {
             }
         }
 
-        >button {
+        >input[type=submit] {
             width: max-content;
             padding: .8vmax 2.5vmax;
             align-self: center;
