@@ -31,7 +31,8 @@
           <div class="void"/>
           <div class="footer">
             <footer-bar></footer-bar>
-            <img class="detail">
+            <video class="anim web" src="./assets/art/anim_web.mp4" type="video/mp4" @click.right.prevent muted loop autoplay/>
+            <video class="anim mobile" src="./assets/art/anim_mobile.mp4" type="video/mp4" @click.right.prevent muted loop autoplay/>
           </div>
         </div>
       </div>
@@ -435,21 +436,28 @@ body {
       justify-content: center;
       position: relative;
 
-      .detail {
-        position: absolute;
+      .anim {
         object-fit: contain;
+        position: absolute;
         bottom: 0;
-        
-        @media screen and (min-width: 721px){
-          content: url('./assets/art/detail_web.png');
+
+        &.web {
           left: 0;
           height: 140%;
+          display: none;
+          @media screen and (min-width: 721px) {
+            display: block;
+          }
         }
-        @media screen and (max-width: 720px){
-          content: url('./assets/art/detail_mobile.png');
+
+        &.mobile {
           right: 0;
           height: 100%;
-        }
+          display: none;
+          @media screen and (max-width: 720px) {
+            display: block;
+          }
+        }        
       }
     }
   }
