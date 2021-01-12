@@ -12,6 +12,8 @@
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
     "@fortawesome/vue-fontawesome": "^2.0.2",
     "core-js": "^3.6.5",
+    "imagemin-webp-webpack-plugin": "^3.3.3",
+    "imagemin-webpack-plugin": "^2.4.2",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
     "vue-property-decorator": "^8.4.2",
