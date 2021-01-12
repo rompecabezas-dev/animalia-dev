@@ -2,7 +2,7 @@
   <div class="quiz">
     <div class="present">
       <p>QUIZ</p>
-      <div>ANIMÁLIA <img src="../assets/img/arts/quiz.png"></div>
+      <div>ANIMÁLIA <img src="../assets/img/arts/quiz.webp"></div>
       <p class="quest">Quanto você aprendeu sobre o <b>Mundo Animália?</b></p>
       <a class="btn-start" href="/quiz-teste-seus-conhecimentos" @click.prevent="clickRedirect('/quiz-teste-seus-conhecimentos')">INICIAR</a>
       <a href="/#top" @click.prevent="clickRedirect('/')">&#60; PÁGINA INICIAL</a>
@@ -42,9 +42,9 @@ export default class Quiz extends Vue {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
-  background-image: url('../assets/img/arts/bg_intro_quiz_web.png');
+  background-image: url('../assets/img/arts/bg_intro_quiz_web.webp');
   @media screen and (max-width: 720px) {
-    background-image: url('../assets/img/arts/bg_intro_quiz_mobile.png');
+    background-image: url('../assets/img/arts/bg_intro_quiz_mobile.webp');
   }
 
   .present {

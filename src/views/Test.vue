@@ -3,7 +3,7 @@
     <div class="content">
       <div class="quiz">
         <p>QUIZ</p>
-        <div>ANIMÁLIA <img src="../assets/img/arts/quiz.png"></div>
+        <div>ANIMÁLIA <img src="../assets/img/arts/quiz.webp"></div>
         <p class="quest">Quanto você aprendeu sobre o <b>Mundo Animália?</b></p>
       </div>
       <div v-if="current >= 10" class="completion">
@@ -69,9 +69,9 @@ export default class Test extends Vue {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
-  background-image: url('../assets/img/arts/bg_quiz_web.png');
+  background-image: url('../assets/img/arts/bg_quiz_web.webp');
   @media screen and (max-width: 720px) {
-    background-image: url('../assets/img/arts/bg_quiz_mobile.png');
+    background-image: url('../assets/img/arts/bg_quiz_mobile.webp');
   }
 
   .content {

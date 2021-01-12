@@ -1,127 +1,127 @@
 {
     "anta": {
         "name": "Anta",
-        "art": "anta.png",
-        "pic": "anta.png",
+        "art": "anta.webp",
+        "pic": "anta.webp",
         "clip": "anta.mp4",
         "bg": "#8067ca"
     },
     "arara-azul": {
         "name": "Arara-azul",
-        "art": "arara.png",
-        "pic": "arara.png",
+        "art": "arara.webp",
+        "pic": "arara.webp",
         "clip": "arara.mp4",
         "bg": "#f9d643"
     },
     "ariranha": {
         "name": "Ariranha",
-        "art": "ariranha.png",
-        "pic": "ariranha.png",
+        "art": "ariranha.webp",
+        "pic": "ariranha.webp",
         "clip": "ariranha.mp4",
         "bg": "#ef8943"
     },
     "coala": {
         "name": "Coala",
-        "art": "coala.png",
-        "pic": "coala.png",
+        "art": "coala.webp",
+        "pic": "coala.webp",
         "clip": "coala.mp4",
         "bg": "#54d3c7"
     },
     "elefante-da-savana": {
         "name": "Elefante-da-savana",
         "art": "",
-        "pic": "elefante.png",
+        "pic": "elefante.webp",
         "clip": "",
         "bg": "grey"
     },
     "flamingo-de-james": {
         "name": "Flamingo-de-james",
-        "art": "flamingo.png",
-        "pic": "flamingo.png",
+        "art": "flamingo.webp",
+        "pic": "flamingo.webp",
         "clip": "flamingo.mp4",
         "bg": "#f9d643"
     },
     "girafa-masai": {
         "name": "Girafa-masai",
-        "art": "girafa.png",
-        "pic": "girafa.png",
+        "art": "girafa.webp",
+        "pic": "girafa.webp",
         "clip": "girafa.mp4",
         "bg": "#8067ca"
     },
     "jacare-de-papo-amarelo": {
         "name": "Jacaré-de-papo-amarelo",
-        "art": "jacare.png",
-        "pic": "jacare.png",
+        "art": "jacare.webp",
+        "pic": "jacare.webp",
         "clip": "jacare.mp4",
         "bg": "#f9d643"
     },
     "jaguatirica": {
         "name": "Jaguatirica",
-        "art": "jaguatirica.png",
-        "pic": "jaguatirica.png",
+        "art": "jaguatirica.webp",
+        "pic": "jaguatirica.webp",
         "clip": "jaguatirica.mp4",
         "bg": "#ed5ca2"
     },
     "lobo-guara": {
         "name": "Lobo-guará",
-        "art": "lobo.png",
-        "pic": "lobo.png",
+        "art": "lobo.webp",
+        "pic": "lobo.webp",
         "clip": "lobo.mp4",
         "bg": "#ed5ca2"
     },
     "lobo-vermelho": {
         "name": "Lobo-vermelho",
-        "art": "lobo2.png",
-        "pic": "lobo2.png",
+        "art": "lobo2.webp",
+        "pic": "lobo2.webp",
         "clip": "lobo2.mp4",
         "bg": "#ef8943"
     },
     "macaco-prego": {
         "name": "Macaco-prego",
-        "art": "macaco.png",
-        "pic": "macaco.png",
+        "art": "macaco.webp",
+        "pic": "macaco.webp",
         "clip": "macaco.mp4",
         "bg": "#8067ca"
     },
     "mico-leao-dourado": {
         "name": "Mico-Leão-Dourado",
-        "art": "mico.png",
-        "pic": "mico.png",
+        "art": "mico.webp",
+        "pic": "mico.webp",
         "clip": "mico.mp4",
         "bg": "#54d3c7"
     },
     "onca-parda": {
         "name": "Onça parda",
-        "art": "onca2.png",
-        "pic": "onca2.png",
+        "art": "onca2.webp",
+        "pic": "onca2.webp",
         "clip": "onca2.mp4",
         "bg": "#54d3c7"
     },
     "onca-pintada": {
         "name": "Onça pintada ",
-        "art": "onca.png",
-        "pic": "onca.png",
+        "art": "onca.webp",
+        "pic": "onca.webp",
         "clip": "onca.mp4",
         "bg": "#8067ca"
     },
     "pinguim-africano": {
         "name": "Pinguim-africano",
-        "art": "pinguim.png",
-        "pic": "pinguim.png",
+        "art": "pinguim.webp",
+        "pic": "pinguim.webp",
         "clip": "pinguim.mp4",
         "bg": "#ef8943"
     },
     "tartaruga-oliva": {
         "name": "Tartaruga-oliva",
-        "art": "tartaruga.png",
-        "pic": "tartaruga.png",
+        "art": "tartaruga.webp",
+        "pic": "tartaruga.webp",
         "clip": "tartaruga.mp4",
         "bg": "#ef8943"
     },
     "veado-campeiro":{
         "name": "Veado campeiro",
-        "art": "veado.png",
-        "pic": "veado.png",
+        "art": "veado.webp",
+        "pic": "veado.webp",
         "clip": "veado.mp4",
         "bg": "#429bdb"
     }

@@ -2,7 +2,7 @@
   <div id="app">
     <div class="header">
       <a href="#top" @click="clickRedirect('/'); menuController(true)">
-        <img class="logo" src="./assets/img/logo.png" alt="Animália" >
+        <img class="logo" src="./assets/img/logo.webp" alt="Animália" >
       </a>
       <div class="fill"/>
       <div class="menu-btn" @click="menuController()">

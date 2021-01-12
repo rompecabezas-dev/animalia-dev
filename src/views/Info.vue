@@ -43,8 +43,8 @@
       </div>
       <a href="#animais" @click="clickRedirect('/')">&#60; VOLTAR PARA ANIMAIS</a>
     </div>
-    <img class="detail-left" src="../assets/img/arts/detail_animals_web_l.png">
-    <img class="detail-right" src="../assets/img/arts/detail_animals_web_r.png">
+    <img class="detail-left" src="../assets/img/arts/detail_animals_web_l.webp">
+    <img class="detail-right" src="../assets/img/arts/detail_animals_web_r.webp">
   </div>
 </template>
 
