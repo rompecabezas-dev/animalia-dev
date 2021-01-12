@@ -2,7 +2,7 @@
   <div id="app">
     <div class="header">
       <a href="#top" @click="clickRedirect('/'); menuController(true)">
-        <img class="logo" src="./assets/logo.png" alt="Animália" >
+        <img class="logo" src="./assets/img/logo.png" alt="Animália" >
       </a>
       <div class="fill"/>
       <div class="menu-btn" @click="menuController()">
@@ -31,8 +31,8 @@
           <div class="void"/>
           <div class="footer">
             <footer-bar></footer-bar>
-            <video class="anim web" src="./assets/art/anim_web.mp4" type="video/mp4" @click.right.prevent muted loop autoplay/>
-            <video class="anim mobile" src="./assets/art/anim_mobile.mp4" type="video/mp4" @click.right.prevent muted loop autoplay/>
+            <video class="anim web" src="./assets/clips/anim_web.mp4" type="video/mp4" @click.right.prevent muted loop autoplay/>
+            <video class="anim mobile" src="./assets/clips/anim_mobile.mp4" type="video/mp4" @click.right.prevent muted loop autoplay/>
           </div>
         </div>
       </div>
@@ -137,28 +137,8 @@ export default class App extends Vue {
 }
 
 @font-face {
-  font-family: 'all-round-gothic-demi';
-  src: url('./assets/fonts/All-Round- Gothic-Demi.ttf') format('truetype');
-}
-
-@font-face {
   font-family: 'all-round-gothic-bold';
   src: url('./assets/fonts/All-Round-Gothic-Bold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'all-round-gothic-book';
-  src: url('./assets/fonts/All-Round-Gothic-Book.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'all-round-gothic-medium';
-  src: url('./assets/fonts/All-Round-Gothic-Medium.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'all-round-gothic-xlig';
-  src: url('./assets/fonts/All-Round-Gothic-XLig.ttf') format('truetype');
 }
 
 *, *::before, *::after {
@@ -440,6 +420,7 @@ body {
         object-fit: contain;
         position: absolute;
         bottom: 0;
+        z-index: -200;
 
         &.web {
           left: 0;

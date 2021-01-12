@@ -1,7 +1,7 @@
 <template>
     <div class="footer-bar">
         <a href="https://www.instagram.com/rompecabezas.ent/" target="_blank">
-            <img src="@/assets/rompecabezas.png" alt="Rompecabezas">
+            <img src="@/assets/img//rompecabezas.png" alt="Rompecabezas">
         </a>
         <p>Copyright © Rompecabezas 2021</p>
     </div>

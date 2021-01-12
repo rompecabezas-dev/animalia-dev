@@ -11,13 +11,10 @@
                 <div class="quiz-btn" @click="clickRedirect('/quiz')">
                     <div class="btn-title">QUIZ ANIMÁLIA</div>
                     <div class="btn-text">Teste seus conhecimentos sobre o <b>Mundo Animália</b></div>
-                    <img src="../assets/art/quiz.png" alt="Quiz Animália">
+                    <img src="../assets/img/arts/quiz.png" alt="Quiz Animália">
                 </div>
             </div>
-            <div class="img">
-                <img id="mob" src="@/assets/art/art_mobile.png" alt="Animália">
-                <img id="web" src="@/assets/art/art_web.png" alt="Animália">
-            </div>  
+            <img class="art">
         </div>
     </div>
 </template>
@@ -56,34 +53,23 @@ export default class Animalia extends Vue {
                 flex-direction: column-reverse;
             }
 
-            .img {
+            .art {
                 grid-area: image;
-                position: relative;
-                width: 100%;
-
-                #mob {
-                    display: none;
-                    object-fit: contain;
+                object-fit: contain;
+                @media screen and (max-width: 720px) {
+                    position: relative;
                     width: 100%;
-                    @media screen and (max-width: 720px) {
-                        display: block;
-                    }
+                    content: url('../assets/img/arts/art_mobile.png');
                 }
-    
-                #web {
+                @media screen and (min-width: 721px) {
                     position: absolute;
                     bottom: 0;
                     right: 0;
-                    display: none;
                     height: 120%;
-                    object-fit: contain;
-    
-                    @media screen and (min-width: 721px) {
-                        display: block;
-                    }
+                    content: url('../assets/img/arts/art_web.png');
                 }
             }
-    
+
             .info {
                 grid-area: info;
                 width: 100%;

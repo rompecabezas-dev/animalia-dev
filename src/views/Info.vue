@@ -6,9 +6,9 @@
         <div class="aka">
           <div class="animal-container" :style="`background-color: ${animal.vData.bg}`">
             <video v-if="animal.vData.clip != ''" class="animal-clip" muted loop autoplay @click.right.prevent>
-              <source :src="require(`../assets/clips/${animal.vData.clip}`)" type="video/mp4">
+              <source :src="require(`../assets/clips/animals/${animal.vData.clip}`)" type="video/mp4">
             </video>
-            <div v-else class="animal-art" :style="animal.vData.art != '' ? `background-image: url(${require(`../assets/art/animals/${animal.vData.art}`)})` : ''"/>
+            <div v-else class="animal-art" :style="animal.vData.art != '' ? `background-image: url(${require(`../assets/img/animals/renders/${animal.vData.art}`)})` : ''"/>
           </div>
           <p v-if="animal.iData.aka != ''"><b>Também conhecid{{animal.iData.sub}} como:</b> {{animal.iData.aka}}</p>
           <p v-else></p>
@@ -29,7 +29,7 @@
           </article>
         </div>
         <div class="card">
-          <img :src="require(`../assets/pictures/${animal.vData.pic}`)" :alt="animal.vData.name">
+          <img :src="require(`../assets/img/animals/pictures/${animal.vData.pic}`)" :alt="animal.vData.name">
           <div class="stats">
             <ul>
               <li>Nome científico: {{animal.iData.cname}}</li>
@@ -43,8 +43,8 @@
       </div>
       <a href="#animais" @click="clickRedirect('/')">&#60; VOLTAR PARA ANIMAIS</a>
     </div>
-    <img class="detail-left" src="../assets/art/detail_animals_web_l.png">
-    <img class="detail-right" src="../assets/art/detail_animals_web_r.png">
+    <img class="detail-left" src="../assets/img/arts/detail_animals_web_l.png">
+    <img class="detail-right" src="../assets/img/arts/detail_animals_web_r.png">
   </div>
 </template>
 

@@ -4,17 +4,17 @@
       <div class="wrapper">    
         <div class="mosaic v1">
             <div class="animal-container" v-for="(animal, id) in mosaicData(mosaic.b1)" :key="id" :style="`background-color: ${animal.bg}`" @click="clickRedirect(`/${id}`)">
-                <div class="animal-art" :style="animal.art != '' ? `background-image: url(${require(`../assets/art/animals/${animal.art}`)})` : ''"/>   
+                <div class="animal-art" :style="animal.art != '' ? `background-image: url(${require(`../assets/img/animals/renders/${animal.art}`)})` : ''"/>   
             </div>
         </div>
         <div class="mosaic v2">
             <div class="animal-container" v-for="(animal, id) in mosaicData(mosaic.b2)" :key="id" :style="`background-color: ${animal.bg}`" @click="clickRedirect(`/${id}`)">
-                <div class="animal-art" :style="animal.art != '' ? `background-image: url(${require(`../assets/art/animals/${animal.art}`)})` : ''"/>     
+                <div class="animal-art" :style="animal.art != '' ? `background-image: url(${require(`../assets/img/animals/renders/${animal.art}`)})` : ''"/>     
             </div>
         </div>
         <div class="mosaic v3">
             <div class="animal-container" v-for="(animal, id) in mosaicData(mosaic.b3)" :key="id" :style="`background-color: ${animal.bg}`" @click="clickRedirect(`/${id}`)">
-                <div class="animal-art" :style="animal.art != '' ? `background-image: url(${require(`../assets/art/animals/${animal.art}`)})` : ''"/>
+                <div class="animal-art" :style="animal.art != '' ? `background-image: url(${require(`../assets/img/animals/renders/${animal.art}`)})` : ''"/>
             </div>
         </div>
       </div>
