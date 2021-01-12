@@ -134,11 +134,13 @@ export default class App extends Vue {
 @font-face {
   font-family: 'roboto-regular';
   src: url('./assets/fonts/Roboto-Regular.ttf') format('truetype');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'all-round-gothic-bold';
   src: url('./assets/fonts/All-Round-Gothic-Bold.ttf') format('truetype');
+  font-display: swap;
 }
 
 *, *::before, *::after {
