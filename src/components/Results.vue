@@ -11,7 +11,7 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
-import results from '../assets/data/quiz/results';
+import results from '../assets/data/quiz/trivia/results';
 import { clickRedirect } from '../assets/functions';
 
 @Component
@@ -122,16 +122,7 @@ export default class Results extends Vue {
             @media screen and (max-width: 720px) {
                 font-size: 1.6vmax;
             }
-
-            &:link{
-                text-decoration: none;
-            }
         }
-        /*
-        >div {
-            
-        }
-        */
     }
 }
 </style>

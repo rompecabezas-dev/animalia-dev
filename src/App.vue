@@ -168,6 +168,10 @@ img {
   -webkit-user-drag: none;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 input[type=checkbox] {
   position: relative;
   margin-right: 5px;
@@ -363,10 +367,6 @@ body {
         @media screen and (max-width: 720px) {
           padding: 1vmax 10vmax;
           border-bottom: 1px solid $border;
-        }
-
-        &:link {
-          text-decoration: none;
         }
       }
 

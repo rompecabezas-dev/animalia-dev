@@ -29,7 +29,7 @@
     },
     "elefante-da-savana": {
         "name": "Elefante-da-savana",
-        "art": "",
+        "art": "elefante.webp",
         "pic": "elefante.webp",
         "clip": "elefante.mp4",
         "bg": "#ed5ca2"

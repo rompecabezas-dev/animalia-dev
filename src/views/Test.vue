@@ -17,7 +17,7 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import questions from '../assets/data/quiz/questions';
+import questions from '../assets/data/quiz/trivia/questions';
 import { shuffleArray } from '../assets/functions';
 import Question from '../components/Question.vue';
 import Newsletter from '../components/Newsletter.vue';

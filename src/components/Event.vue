@@ -109,10 +109,6 @@ export default class TheEvent extends Vue {
       }
       a{
         color: $pink;
-
-        :link {
-          text-decoration: none;
-        }
       }
 
       .follow {

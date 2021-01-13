@@ -2,7 +2,7 @@
   <div class="question">
     <div>{{ question.question }}</div>
     <ul>
-        <li v-for="(item, index) in shuffleArray(question.choices)" :key="`ch_${index}`" @click="choose(item)">{{item}}</li>
+        <li v-for="(item, index) in shuffleChoices(question.choices)" :key="`ch_${index}`" @click="choose(item)">{{item}}</li>
     </ul>
   </div>
 </template>
@@ -13,17 +13,25 @@ import { shuffleArray } from '../assets/functions';
 
 @Component
 export default class Question extends Vue {
-    @Prop() private question!: { question: string; choices: Array<string>; answer: string };
+    @Prop() private question!: { question: string; choices: Array<string>|any; answer?: string };
 
-    private shuffleArray(array: Array<any>) {
-        return shuffleArray(array);
+    private shuffleChoices() {        
+        if (this.question.answer)
+        {
+            return shuffleArray(this.question.choices);
+        }
+        return shuffleArray(Object.values(this.question.choices));
     }
 
     private choose(userAnswer: string) {
-        if (userAnswer === this.question.answer) {
+        if (this.question.answer) {
+            if (userAnswer === this.question.answer) {
             this.$emit("userResult", {earned: 1});
+            } else {
+                this.$emit("userResult", {earned: 0});
+            }
         } else {
-            this.$emit("userResult", {earned: 0});
+            this.$emit("userResult", {earned: Object.keys(this.question.choices).find(k => this.question.choices[k] === userAnswer)});
         }
     }
 }
@@ -96,6 +104,20 @@ export default class Question extends Vue {
                 border-color: $blue;
                 &:active {
                     background-color: $blue;
+                    color: white;
+                }
+            }
+            &:nth-child(5) {
+                border-color: $yellow;
+                &:active {
+                    background-color: $yellow;
+                    color: white;
+                }
+            }
+            &:nth-child(6) {
+                border-color: $lilac;
+                &:active {
+                    background-color: $lilac;
                     color: white;
                 }
             }

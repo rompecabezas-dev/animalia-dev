@@ -172,9 +172,6 @@ export default class Newsletter extends Vue {
             @media screen and (max-width: 720px) {
                 font-size: 1.5vmax;
             }
-            &:link {
-                text-decoration: none;
-            }
         }
 
         >div {
