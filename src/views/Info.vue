@@ -152,10 +152,6 @@ export default class Info extends Vue {
     @media screen and (max-width: 720px) {
       font-size: 2vmax;
     }
-
-    &:link {
-      text-decoration: none;
-    }
   }
 
   .wrapper {

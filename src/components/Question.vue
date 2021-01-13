@@ -1,9 +1,9 @@
 <template>
   <div class="question">
     <div>{{ question.question }}</div>
-    <ul>
+      <ul :class="{ csix: Object.keys(question.choices).length > 4 }">
         <li v-for="(item, index) in shuffleChoices(question.choices)" :key="`ch_${index}`" @click="choose(item)">{{item}}</li>
-    </ul>
+      </ul>
   </div>
 </template>
 
@@ -15,7 +15,7 @@ import { shuffleArray } from '../assets/functions';
 export default class Question extends Vue {
     @Prop() private question!: { question: string; choices: Array<string>|any; answer?: string };
 
-    private shuffleChoices() {        
+    private shuffleChoices() {
         if (this.question.answer)
         {
             return shuffleArray(this.question.choices);
@@ -56,7 +56,7 @@ export default class Question extends Vue {
         @media screen and (max-width: 720px) {
             font-size: 2vmax;
             max-width: 90%;
-        }
+        }     
     }
 
     >ul {
@@ -65,6 +65,16 @@ export default class Question extends Vue {
         @media screen and (max-width: 720px) {
             margin: 2vmax 0;
         }
+        &.csix {
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1r 1fr;
+            gap: 0 2vmax;
+            @media screen and (max-width: 720px) {
+                gap: 0 4vmax;
+            }
+        }
+        
         >li {
             padding: .5vmax 1.5vmax;
             border: 2px solid;
@@ -76,47 +86,46 @@ export default class Question extends Vue {
             @media screen and (max-width: 720px) {
                 font-size: 2vmax;
                 margin: 2vmax 0;
-                }
+            }
 
             &:nth-child(1) {
                 border-color: $teal;
-                &:active {
+                &:hover, &:active {
                     background-color: $teal;
                     color: white;
-                    
                 }
             }
             &:nth-child(2) {
                 border-color: $pink;
-                &:active {
+                &:hover, &:active {
                     background-color: $pink;
                     color: white;
                 }
             }
             &:nth-child(3) {
                 border-color: $orange;
-                &:active {
+                &:hover, &:active {
                     background-color: $orange;
                     color: white;
                 }
             }
             &:nth-child(4) {
                 border-color: $blue;
-                &:active {
+                &:hover, &:active {
                     background-color: $blue;
                     color: white;
                 }
             }
             &:nth-child(5) {
                 border-color: $yellow;
-                &:active {
+                &:hover, &:active {
                     background-color: $yellow;
                     color: white;
                 }
             }
             &:nth-child(6) {
                 border-color: $lilac;
-                &:active {
+                &:hover, &:active {
                     background-color: $lilac;
                     color: white;
                 }
