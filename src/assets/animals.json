@@ -31,8 +31,8 @@
         "name": "Elefante-da-savana",
         "art": "",
         "pic": "elefante.webp",
-        "clip": "",
-        "bg": "grey"
+        "clip": "elefante.mp4",
+        "bg": "#ed5ca2"
     },
     "flamingo-de-james": {
         "name": "Flamingo-de-james",
