@@ -38,8 +38,6 @@ export default class Test extends Vue {
   private subscribed = false;
 
   private get result() {
-    console.log(this.score.entries());
-    console.log(Array.from(this.score.entries()));
     return Array.from(this.score.entries()).sort((e1, e2) => {
       return e2[1] - e1[1];
     })[0];
