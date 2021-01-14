@@ -1,6 +1,6 @@
 <template>
     <div class="newsletter">
-        <p>PRONTO(A) PARA DESCORBRIR QUANTAS QUESTÕES VOCÊ ACERTOU?</p>
+        <p>PRONTO(A) PARA DESCORBRIR OS RESULTADOS DO QUIZ?</p>
         <p>Preencha os campos abaixo para ver seu resultado!</p>
         <form 
             action="https://mundoanimalia.us7.list-manage.com/subscribe/post?u=64666cde1a9c5ea6c14984606&amp;id=6f4ff17ef5" 
