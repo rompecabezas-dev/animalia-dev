@@ -1,5 +1,7 @@
 <template>
   <div class="quiz">
+    <img class="dright">
+    <img class="dleft">
     <div class="present">
       <p>QUIZ</p>
       <div>ANIMÁLIA <img src="../assets/img/arts/quiz.webp"></div>
@@ -50,12 +52,30 @@ export default class Quiz extends Vue {
   cursor: default;
   height: 100%;
   width: 100%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-image: url('../assets/img/arts/bg_intro_quiz_web.webp');
+  position: relative;
   @media screen and (max-width: 720px) {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
     background-image: url('../assets/img/arts/bg_intro_quiz_mobile.webp');
+  }
+
+  >img {
+    position: absolute;
+    object-fit: contain;
+    height: 80%;
+    bottom: 0;
+    @media screen and (max-width: 720px) {
+      display: none;
+    }
+    &.dright {
+      right: 0;
+      content: url('../assets/img/arts/quiz_intro_detail_right_web.webp');
+    }
+    &.dleft {
+      left: 0;
+      content: url('../assets/img/arts/quiz_intro_detail_left_web.webp');
+    }
   }
 
   .present {

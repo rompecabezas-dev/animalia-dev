@@ -1,5 +1,7 @@
 <template>
   <div class="test">
+    <img class="dright">
+    <img class="dleft">
     <div class="content">
       <div class="quiz">
         <p>QUIZ</p>
@@ -72,12 +74,30 @@ export default class Test extends Vue {
   cursor: default;
   height: 100%;
   width: 100%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-image: url('../assets/img/arts/bg_quiz_web.webp');
+  position: relative;
   @media screen and (max-width: 720px) {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
     background-image: url('../assets/img/arts/bg_quiz_mobile.webp');
+  }
+
+  >img {
+    @media screen and (max-width: 720px) {
+      display: none;
+    }
+    object-fit: contain;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    &.dleft {
+      left: 0;
+      content: url('../assets/img/arts/quiz_detail_left_web.webp');
+    }
+    &.dright {
+      right: 0;
+      content: url('../assets/img/arts/quiz_detail_right_web.webp');
+    }
   }
 
   .content {

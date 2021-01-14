@@ -90,44 +90,56 @@ export default class Question extends Vue {
 
             &:nth-child(1) {
                 border-color: $teal;
-                &:hover, &:active {
-                    background-color: $teal;
-                    color: white;
+                @media screen and (min-width: 721px) {
+                    &:hover, &:active {
+                        background-color: $teal;
+                        color: white;
+                    }    
                 }
             }
             &:nth-child(2) {
                 border-color: $pink;
-                &:hover, &:active {
-                    background-color: $pink;
-                    color: white;
+                @media screen and (min-width: 721px) {
+                    &:hover, &:active {
+                        background-color: $pink;
+                        color: white;
+                    }    
                 }
             }
             &:nth-child(3) {
                 border-color: $orange;
-                &:hover, &:active {
-                    background-color: $orange;
-                    color: white;
+                @media screen and (min-width: 721px) {
+                    &:hover, &:active {
+                        background-color: $orange;
+                        color: white;
+                    }    
                 }
             }
             &:nth-child(4) {
                 border-color: $blue;
-                &:hover, &:active {
-                    background-color: $blue;
-                    color: white;
+                @media screen and (min-width: 721px) {
+                    &:hover, &:active {
+                        background-color: $blue;
+                        color: white;
+                    }    
                 }
             }
             &:nth-child(5) {
                 border-color: $yellow;
-                &:hover, &:active {
-                    background-color: $yellow;
-                    color: white;
+                @media screen and (min-width: 721px) {
+                    &:hover, &:active {
+                        background-color: $yellow;
+                        color: white;
+                    }    
                 }
             }
             &:nth-child(6) {
                 border-color: $lilac;
-                &:hover, &:active {
-                    background-color: $lilac;
-                    color: white;
+                @media screen and (min-width: 721px) {
+                    &:hover, &:active {
+                        background-color: $lilac;
+                        color: white;
+                    }    
                 }
             }
         }
